@@ -32,7 +32,7 @@ jobs:
          timeout-minutes: 600
          continue-on-error: true
          run: |
-           cd kaali
+           cd legend
            docker build . -t legend
            docker run legend
        - name: loop legend-linux server
